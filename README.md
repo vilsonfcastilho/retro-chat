@@ -4,9 +4,12 @@ A retro-style terminal chat application built in Rust. This project uses a TUI (
 
 ## Features ✨
 
-- 🖥️ Retro-style TUI built with `cursive`
+- 🎨 Retro-style TUI built with `cursive`
 - ⚡ Asynchronous server handling with `tokio`
-- 💬 Multiple clients can chat in real-time through a simple TCP server
+- 👥 Multiple user clients can chat in real-time through a simple TCP server
+- 📢 Join/Leave notifications
+- 🌈 Colored messages and UI elements
+- ⌚ Timestamp for messages
 
 ## Screenshots 📷
 
@@ -59,6 +62,14 @@ $ cargo run --bin client John
 ```
 
 You can run multiple terminal instances to simulate different users chatting.
+
+## Controls 🕹️
+
+- Type your message and press Enter to send
+- Help command `/help`
+- Press Esc to quit
+- Messages window automatically scrolls to show new messages
+- System notifications for users joining/leaving are highlighted
 
 ## Dependencies 📦
 
